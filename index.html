@@ -10,26 +10,16 @@
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Missel">
+    <meta name="mobile-web-app-capable" content="yes">
 
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        a {
-            font-size: 20px;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
-    <a href="https://www.missel.fr">
-        Ouvrir le Missel
+    <script>
+        window.location.replace(
+            "missel.fr"
+        );
+    </script>
 </body>
 </html>
