@@ -1,0 +1,13 @@
+{
+  "name": "CEC",
+  "short_name": "CEC",
+  "start_url": "https://cyborgalexandre.github.io/missel-webapp/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
